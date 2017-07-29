@@ -1,5 +1,5 @@
 <?php
-define('URL', 'http://localhost/blog/');
+define('URL', 'https://mongoblogtest.herokuapp.com/');
 define('UserAuth', 'admin');
 define('PasswordAuth', 'admin');
 
