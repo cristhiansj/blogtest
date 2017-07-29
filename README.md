@@ -1,15 +1,5 @@
-How to create blog use mongodb and php
+Creando un blog simple con mongoDB y php.
 -------------
-
-Demo app [here](http://phpmongodb-duythien.rhcloud.com)
-
-Backend [here](http://phpmongodb-duythien.rhcloud.com/admin)
-
-	username: duythien
-
-	password: duythien
-	
-	
-Reading tutorial here
+Basado en:
 
 http://www.sitepoint.com/building-simple-blog-app-mongodb-php/
