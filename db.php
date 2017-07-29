@@ -26,7 +26,8 @@ class DB {
 	            return false;
 	        }
 			//$connection=  new \MongoClient($config['connection_string'],array('username'=>$config['username'],'password'=>$config['password']));
-			$connection=  new \MongoClient($config['connection_string']);
+			//$connection=  new \MongoClient($config['connection_string']);
+			$connection=  new \MongoClient("mongodb://jim:jim1234@ds129153.mlab.com:29153/blog");
 	    	return $this->db = $connection->selectDB($config['dbname']);
 		}catch(Exception $e) {
 			return false;
